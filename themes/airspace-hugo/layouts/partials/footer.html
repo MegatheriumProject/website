@@ -6,11 +6,14 @@
         <div class="footer-manu">
           <ul>
             {{ range .Site.Menus.footer }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}">{{ .Name | markdownify }}</a></li>
             {{ end }}
           </ul>
         </div>
-        <p>Copyright &copy; Design &amp; Developed by Themefisher. All rights reserved.</p>
+        <p>Copyright &copy; Megatherium Project. All rights reserved.</p>
+        <a href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg"/>
+        </a>
       </div>
     </div>
   </div>
