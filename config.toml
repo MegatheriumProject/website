@@ -7,7 +7,7 @@ theme = "airspace-hugo"
 
   [[menu.header]]
     weight = 2
-    name = "Work"
+    name = "Projects"
     url = "/work"
   [[menu.header]]
     weight = 3
@@ -56,8 +56,8 @@ theme = "airspace-hugo"
 
   [params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
+    title = "Open Source Networking for developers"
+    subtitle = "Lorem Ipsum"
 
   [params.wrapper]
     enable = true
