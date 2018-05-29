@@ -32,6 +32,10 @@ theme = "airspace-hugo"
     url = "https://gitter.im/MegatheriumProject/Lobby"
   [[menu.footer]]
     weight = 3
+    name = "<i class='fa fa-2x fa-at'></i> Google Groups"
+    url = "https://groups.google.com/d/forum/megatherium"
+  [[menu.footer]]
+    weight = 4
     name = "<i class='fa fa-2x fa-twitter'></i> Twitter"
     url = "https://twitter.com/MegatheriumIO"
 
