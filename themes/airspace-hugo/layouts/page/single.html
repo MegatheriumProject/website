@@ -23,7 +23,7 @@
 										<p class="italic">Last update on <span class="bold">{{ .Date.Format .Site.Params.date_format }}</span></p>
 									</div>
 									<hr />
-									{{ .Content }}
+									{{ (replaceRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" .TableOfContents .Content) | safeHTML }}
 								</div>
 							</div><!-- .col-md-7 close -->
 						</div>
