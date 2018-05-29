@@ -8,19 +8,19 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 2
     name = "Projects"
-    url = "/work"
+    url = "/projects"
   [[menu.header]]
     weight = 3
     name = "Blog"
     url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Service"
-    url = "#"
+    name = "FAQ"
+    url = "/faq"
   [[menu.header]]
     weight = 5
-    name = "Contact"
-    url = "/contact"
+    name = "About"
+    url = "/about"
 
   [[menu.footer]]
     weight = 1
@@ -67,17 +67,17 @@ theme = "airspace-hugo"
     subtitle = "Catch up with us, anytime and anywhere"
 
   [params.feature]
-    enable = true
+    enable = false
     title = "We believe in great ideas"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
       caption = "View Works"
       url = "#"
 
-  [params.call]
-    enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+#  [params.call]
+#    enable = false
+#    title = "We design delightful digital experiences."
+#    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
 
   [params.contact]
     enable = true

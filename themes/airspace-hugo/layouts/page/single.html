@@ -6,17 +6,35 @@
 <body>
 
 	{{ partial "header.html" . }}
-	
+
 	{{ if isset .Params "id" }}
 		{{ partial .Params.id . }}
 	{{ else }}
-		<main>{{ .Content }}</main>
+		<main>
+			<div class="post">
+				<!-- Wrapper Start -->
+				<section id="intro" style="border: 1px dotted #ddd;">
+					<div class="container">
+						<div class="row">
+							<div>
+								<div class="block">
+									<h1>{{ .Params.title }}</h1>
+									<div class="post-info-wrapper">
+										<p class="italic">Last update on <span class="bold">{{ .Date.Format .Site.Params.date_format }}</span></p>
+									</div>
+									<hr />
+									{{ .Content }}
+								</div>
+							</div><!-- .col-md-7 close -->
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
 	{{ end }}
-
-	{{ partial "call-to-action.html" . }}
 
 	{{ partial "footer.html" . }}
 
-	
+
 </body>
 </html>
